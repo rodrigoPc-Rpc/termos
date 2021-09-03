@@ -1,0 +1,230 @@
+    /*NavBar reutilizável*/    
+    body {
+        background-color: lightgray;
+
+    }
+
+    main {
+        display: flex;
+    }
+    #Photo1 {
+        margin-left: 10rem;
+        margin-right: .5rem;
+        width: 220px;
+        height: 220px;
+    }
+
+    #Photo2 {
+        margin-left: 1rem;
+        margin-right: 15rem;
+        width: 220px;
+        height: 220px;
+    }
+
+    #Photo3 {
+        margin-left: 1rem;
+        margin-right: .5rem;
+        width: 220px;
+        height: 220px;
+    }
+
+
+    #Nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #dadada;
+    }
+
+    #LogoType {
+        margin-left: 5rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        color: black;
+
+        font-weight: 700;
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+    }
+
+    #TitleNew {
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+
+    #InputSearch {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        padding: .5rem;
+
+        background-color: white;
+        outline: 0;
+
+        border: none;
+    }
+
+    [class^="bi-"]::before, [class*=" bi-"]::before {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
+        color: black;
+        
+        font-size: 30px;
+    }
+
+    /*Container com conteúdos*/
+    #Perfil {
+        background-color: lightgray !important;
+        padding-top: 2rem;
+        display: flex;
+        height: 250px;
+        background-color: #ffff;
+    }
+
+    #PhotoPerfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-left: 40px;
+    }
+
+    #Name {
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+
+
+    /*PARTE DAS PUBLICAÇÕES*/
+    #Publications {
+        display: flex;
+        justify-content: center;
+
+        background-color: lightgray !important;
+    }
+
+    #PublicationsEPlants {
+        display: flex;
+
+    }
+
+    #TitlePublications {
+        margin-left: 250px;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+
+        font-family: 'Oswald', sans-serif ;
+        font-size: 50px;
+
+        background-color: lightgray !important;
+    }
+
+    #PublicationsImgs {
+        display: flex;
+    }
+
+    #Legenda {
+        display: flex;
+    }
+
+    #FALA1 {
+        margin-left: 12rem;
+        margin-right: 8rem;
+    }
+
+    #FALA2 {
+        margin-right: 20rem;
+    }
+
+    .FALA {
+        font-family: 'Oswald', sans-serif ;
+        font-size: 20px;
+    }
+
+      @media (max-width: 450px) {
+        #Nav {
+            width: 360px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #dadada;
+        }
+
+        #InputSearch {
+            display: none;
+        }
+
+        #LogoType {
+            margin-left: 1rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+    
+            color: black;
+    
+            font-weight: 700;
+            font-family: 'Oswald', sans-serif;
+            font-size: 3rem;
+        }
+
+        [class^="bi-"]::before, [class*=" bi-"]::before {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            margin-right: 1rem;
+    
+            color: black;
+            
+            font-size: 30px;
+        }
+
+        #Perfil {
+            padding-top: 2rem;
+            display: flex;
+            height: 250px;
+            padding-left: 4px;
+            background-color: #fff;
+        }
+
+        #PhotoPerfil {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        #Name {
+            font-size: 20px;
+            font-family: 'Oswald', sans-serif;
+    
+            margin-left: -2rem;
+            margin-top: 2rem;
+        }
+
+        #ScoreReal:nth-child(2) {
+            font-family: 'Oswald', sans-serif;
+            margin-top: 1rem;
+            margin-left: -2rem;
+        }
+        #Publications {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+    
+            background-color: #fff;
+        }
+
+        #ImgPublications {
+            width: 300px;
+            padding-bottom: 2rem;
+            padding-left: 0 I !important;
+            border-radius: 4px;
+            
+        }
+      }

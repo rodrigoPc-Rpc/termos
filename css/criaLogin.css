@@ -1,0 +1,144 @@
+* {
+  font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+  }
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold; 
+    font-size: 50px;
+    color: #006400;
+  }
+  .caixaCriarConta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #input {
+    width: 400px;
+    outline: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #D3D3D3;
+  }
+  #newAcount {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+    cursor: pointer;
+    border-radius: 4px;
+    width: 420px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: #008000;
+    color: #f4f4f4;
+    border: none;
+  }
+
+.arruma {
+  gap: 2rem;
+  display: flex;
+  padding-bottom: 10px;
+  width: 400px;
+  color: #696969;
+}
+
+
+
+/*COISAS DO BOTAO RADIO*/
+  #radios {
+    
+    display: flex;
+    gap: 15rem;
+    padding-bottom: 10px;
+  }
+
+
+input[type=radio] {
+  display: none;
+}
+input[type=radio] + label::before {
+  content: '';
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 0 0.5em;
+}
+input[type=radio]:checked + label::before {
+  background-color: #008000;
+}
+
+.radio1 + label::before {
+  width: 0.75em;
+  height: 0.75em;
+}
+
+.radio2 + label::before {
+  width: 0.75em;
+  height: 0.75em;
+}
+
+
+  @media (max-width: 450px) {
+    .caixaCriarConta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 360px;
+    }
+
+    #input {
+
+      width: 250px;
+      outline: 1;
+      padding: 20px;
+      border: none;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      background-color: #D3D3D3;
+    }
+
+    .arruma {
+      gap: 2rem;
+      display: flex;
+      padding-bottom: 10px;
+      width: 300px;
+      color: #696969;
+    }
+
+    #radios {
+  
+      display: flex;
+      gap: 10rem;
+      padding-bottom: 10px;
+    }
+
+    .radio1 + label::before {
+      width: 2em;
+      height: 2em;
+    }
+    
+    .radio2 + label::before {
+      width: 2em;
+      height: 2em;
+    }
+
+    #newAcount {
+      box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+      cursor: pointer;
+      border-radius: 4px;
+      width: 250px;
+      padding: 10px;
+
+      margin-bottom: 10px;
+      font-size: 20px;
+      font-family: sans-serif;
+      background-color: #008000;
+      color: #f4f4f4;
+      border: none;
+    }
+    #MobileRodape {
+      display: inline;
+    }
+  }

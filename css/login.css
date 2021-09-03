@@ -1,0 +1,116 @@
+* {
+  font-family: 'Oswald', sans-serif;
+  background-color: #fff;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  color: #006400;
+}
+
+.caixa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input {
+  width: 400px;
+  outline: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #D3D3D3;
+}
+
+#input::placeholder {
+  font-family: 'Oswald', sans-serif;
+}
+
+#btnEntrar {
+  box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+  cursor: pointer;
+  border-radius: 4px;
+  width: 420px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #008000;
+  color: #f4f4f4;
+  border: none;
+}
+
+#newAcount {
+  box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+  cursor: pointer;
+  border-radius: 4px;
+  width: 420px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: #008000;
+  color: #f4f4f4;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #0000CD;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+@media (max-width: 450px) {
+
+  h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: 	#006400 ;
+  }
+
+  #input {
+    width: 200px;
+    outline: 1;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #D3D3D3;
+  }
+
+  #btnEntrar {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+    cursor: pointer;
+    border-radius: 4px;
+    width: 230px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #008000;
+    color: #f4f4f4;
+    border: none;
+  }
+
+  #newAcount {
+    box-shadow: 0 1px 0 rgb(0 0 0 / 14%), inset 0 -1px 1px 0 rgb(0 0 0 / 3%);
+    cursor: pointer;
+    border-radius: 4px;
+    width: 230px;
+    padding: 15px;
+    background-color: #008000;
+    color: #f4f4f4;
+    border: none;
+  
+  }
+  
+  .caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+}

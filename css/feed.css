@@ -1,0 +1,79 @@
+    body {
+        background-color: lightgray;
+    }
+    
+    #Feed { 
+        margin-left: 350px;
+
+    }
+
+    #Publication {
+        width: 250px;
+        padding-top: 5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    #PerfilImage {  
+        width: 70px;
+        height: 70px;
+        margin-bottom: 2rem;
+        display: block;
+    }
+
+    #NamePerfil {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+
+    #Center {
+        display: flex;
+        margin-left: 350px;
+        align-items: center;
+    }
+
+    #Comments {
+        font-size: 20px;
+        margin-bottom: 2rem;
+
+        font-family: 'Oswald', sans-serif;
+    }
+
+
+    #GroupImage {
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+    }
+
+    #ColorBar {
+        margin-left: 4rem;
+    }
+
+    #Convida {
+        background-color: #008000;
+        color: white;
+        border:none;
+        
+    }
+
+
+    @media (max-width: 450px) {
+        #Feed { 
+            margin-left: 0;
+    
+        }
+
+        #Arrumando {
+            width: 360px;
+            height: 360px;
+        }
+
+        #Center {
+            margin-left: 0px;
+        }
+
+    }

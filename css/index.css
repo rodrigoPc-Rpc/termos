@@ -1,0 +1,229 @@
+.NavBar {
+  justify-content: space-between;
+  display: flex;
+
+  padding-top: 1rem;
+
+  background-color: #006400;
+
+  line-height: normal;
+  gap: 2rem;
+}
+
+.List {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  font-size: 15px;
+  font-family: 'Oswald', sans-serif;
+  margin-top: 1rem;
+}
+
+#Title {
+  margin-left: 2rem;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#ProLado {
+  margin-right: 1.5rem;
+  border: none;
+  border-radius: 4px;
+  color: #006400;
+  line-height: 1rem;
+}
+
+#Principal {
+  background-image: url(../img/fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 550px;
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#PrincipalTitle {
+  color:#ffffff;
+  font-size: 150px;
+  font-family: 'Rampart One', cursive;
+}
+
+#Marketing {
+  color:#ffffff;
+  font-size: 100px;
+  font-family: 'Rampart One', cursive;
+}
+
+#NavRodape {
+  background-color: #006400;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5rem;
+  height: 100px;
+  font-size: 20px;
+}
+
+#TitleRodape {
+  text-align: center;
+  font-size: 75px;
+  color: black;
+  background-color: #006400;
+  font-family: 'Rampart One', cursive;
+}
+
+#Space {
+  font-weight: 900;
+  margin-bottom: 1rem;
+  color: black;
+}
+
+button {
+  margin-bottom: 2rem;
+  border: none;
+  padding: .5rem;
+}
+
+
+#ARodape{
+  text-decoration: none;
+  color: black;
+  
+}
+
+#Anchor {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+#MobileRodape {
+  display: none;
+}
+
+#Copy {
+  text-align: center;
+  background-color: #006400;
+  font-size: 20px;
+}
+
+#MobileRodape {
+  display: none;
+}
+
+
+@media (max-width: 400px) {
+  
+    .NavBar {
+      justify-content: space-between;
+      display: flex;
+    
+      padding-top: 1rem;
+      height: 75px;
+      width: 100%;
+
+      background-color: #006400;
+    
+      line-height: normal;
+      gap: 2rem;
+    }
+
+  #Title {
+    margin-left: 2rem;
+    color: #ffffff;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  #Anchor {
+    line-height: 2rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+  }
+
+  #Principal {
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 360px;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #PrincipalTitle {
+    color:#ffffff;
+    font-size: 60px;
+    font-family: 'Rampart One', cursive;
+  }
+
+  #Marketing {
+    color:#ffffff;
+    font-size: 28px;
+    font-family: 'Rampart One', cursive;
+  }
+
+  #ProLado {
+    margin-right: .5rem;
+    /*color: ;
+    background-color: ;
+    border: ;
+    border-radius: ;*/
+  }
+  #NavRodape   {
+    display: none;
+  }
+
+  #ARodape{
+    display: none;
+  }
+
+  #TitleRodape {
+    display: none;
+  }
+
+  #Space {
+    display: none;
+  }
+
+  #MobileRodape {
+    width: 360px;
+    display: inline;
+    text-align: center;
+    background-color: #006400;
+
+  }
+
+  #H2Mobile {
+    color: #ffffff;
+    background-color: #006400;
+    font-size: 30px;
+    font-family: 'Rampart One', cursive;
+    height: 100px;
+  }
+
+  #PMobile {
+    color: #ffffff;
+    background-color: #006400;
+    font-size: 20px;
+    height: 70px;
+
+  }
+
+  #ArrumadorDeDireitos {
+    display: none;
+  }
+
+  #Copy {
+    color: #ffffff;
+  }
+}
